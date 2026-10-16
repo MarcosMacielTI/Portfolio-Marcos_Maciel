@@ -34,6 +34,7 @@ Este site está configurado para ser publicado no GitHub Pages.
 Marcos Maciel
 - E-mail: marcosmaciel2906151@gmail.com
 - Telefone/WhatsApp: +55 (92) 98428-1607
+- Currículo Sougov: https://curriculo.sougov.economia.gov.br/marcos-maciel-2601335566
 - LinkedIn: https://www.linkedin.com/in/marcos-maciel-05a7362aa
 - GitHub: https://github.com/MarcosMacielTI-ciesa
 - GitHub: https://github.com/MarcosMacielTI/MarcosMacielTI
