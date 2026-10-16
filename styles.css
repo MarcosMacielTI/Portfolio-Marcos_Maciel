@@ -962,7 +962,7 @@ body {
     gap: 8px;
 }
 
-.hero-metrics > div {
+.hero-metrics>div {
     padding: 10px 8px;
     border-radius: 2px;
     background: rgba(255, 255, 255, 0.035);
@@ -1101,7 +1101,7 @@ code {
     font-weight: 500;
 }
 
-.experience-panel > span {
+.experience-panel>span {
     display: inline-block;
     margin-top: 18px;
     color: var(--primary);
@@ -1354,7 +1354,7 @@ code {
         grid-template-columns: 1fr;
     }
 
-    .hero-metrics > div {
+    .hero-metrics>div {
         display: flex;
         justify-content: space-between;
         gap: 10px;
@@ -1386,6 +1386,7 @@ code {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
     *,
     *::before,
     *::after {
