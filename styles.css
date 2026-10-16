@@ -379,7 +379,7 @@ code {
     transition: color var(--transition);
 }
 
-.profile-link > i:first-child {
+.profile-link>i:first-child {
     width: 16px;
     color: var(--primary);
     text-align: center;
@@ -390,7 +390,7 @@ code {
     overflow-wrap: anywhere;
 }
 
-.profile-link > i:last-child {
+.profile-link>i:last-child {
     color: var(--muted);
     font-size: 0.62rem;
 }
