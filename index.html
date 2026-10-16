@@ -1,368 +1,351 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marcos Maciel - Desenvolvedor</title>
+    <meta name="description"
+        content="Portfólio de Marcos Maciel, técnico em informática e estudante de Ciência da Computação, com experiência em desenvolvimento web, testes e suporte técnico.">
+    <title>Marcos Maciel | Técnico em Informática</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
-    <!-- Navegação -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-content">
-                <div class="logo">Marcos Maciel</div>
-                <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-                <div class="hamburger" id="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <a class="skip-link" href="#main">Pular para o conteúdo</a>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1>Olá, sou <span class="highlight">Marcos Maciel</span></h1>
-                    <p class="subtitle">Desenvolvedor apaixonado por criar soluções web incríveis</p>
-                    <p class="description">Sou um desenvolvedor full-stack especializado em criar aplicações web modernas, responsivas e de alto desempenho. Transformo ideias em realidade através de código limpo e bem estruturado.</p>
-                    <div class="hero-buttons">
-                        <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
-                        <a href="#contato" class="btn btn-secondary">Entrar em Contato</a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <div class="avatar-placeholder">
-                        <i class="fas fa-user"></i>
-                    </div>
-                </div>
-            </div>
+    <header class="navbar">
+        <div class="container nav-shell">
+            <a class="logo" href="#home">Marcos<span>Maciel</span></a>
+            <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-links" aria-label="Navegação principal">
+                <a href="#home">Home</a>
+                <a href="#about">Sobre</a>
+                <a href="#education">Formação</a>
+                <a href="#experience">Experiência</a>
+                <a href="#services">Serviços</a>
+                <a href="#skills">Skills</a>
+                <a href="#certifications">Certificações</a>
+                <a href="#contact">Contato</a>
+            </nav>
         </div>
-    </section>
+    </header>
 
-    <!-- Sobre Mim -->
-    <section id="sobre" class="about">
-        <div class="container">
-            <h2 class="section-title">Sobre Mim</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>Quem sou eu?</h3>
-                    <p>Sou um desenvolvedor dedicado com paixão por tecnologia e inovação. Atuo no desenvolvimento web, criando soluções que não apenas funcionam bem, mas também oferecem excelente experiência ao usuário.</p>
-                    <p>Tenho experiência em diversas tecnologias e estou sempre em busca de aprender novas ferramentas e metodologias para melhorar meu trabalho.</p>
-                    <p>Meu objetivo é ajudar negócios a crescer através de soluções web de qualidade, focando em performance, usabilidade e design moderno.</p>
-                </div>
-                <div class="about-stats">
-                    <div class="stat-card">
-                        <h4>50+</h4>
-                        <p>Projetos Realizados</p>
+    <main id="main">
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-text reveal">
+                    <p class="eyebrow"><i class="fas fa-circle"></i> Técnico em Informática · Ciência da Computação</p>
+                    <h1>Marcos<br><span>Maciel.</span></h1>
+                    <p class="description">Sou técnico em informática e estudante de Ciência da Computação. Desenvolvo
+                        soluções web, interfaces e sistemas com foco em usabilidade, testes e entrega técnica confiável.
+                    </p>
+                    <div class="hero-badges">
+                        <span><i class="fas fa-user-graduate"></i> IFAM</span>
+                        <span><i class="fas fa-book-reader"></i> CIESA</span>
+                        <span><i class="fas fa-laptop-code"></i> Desenvolvimento Web</span>
+                        <span><i class="fas fa-tools"></i> Automação</span>
                     </div>
-                    <div class="stat-card">
-                        <h4>30+</h4>
-                        <p>Clientes Satisfeitos</p>
-                    </div>
-                    <div class="stat-card">
-                        <h4>5+</h4>
-                        <p>Anos de Experiência</p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#experience">Experiência</a>
+                        <a class="btn btn-secondary" href="#contact">Contato</a>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Minhas Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Frontend</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">HTML5</span>
-                        <span class="skill-tag">CSS3</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">React</span>
-                        <span class="skill-tag">Vue.js</span>
-                        <span class="skill-tag">Responsive Design</span>
+                <div class="hero-card reveal">
+                    <div class="hero-card-header">
+                        <span>PERFIL / 01</span>
+                        <span class="hero-status"><i class="fas fa-circle"></i> EM FORMAÇÃO</span>
                     </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Backend</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Node.js</span>
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">Express</span>
-                        <span class="skill-tag">APIs REST</span>
-                        <span class="skill-tag">Databases</span>
-                        <span class="skill-tag">Authentication</span>
+                    <div class="avatar-card">
+                        <div class="avatar-ring">
+                            <div class="avatar-inner">MM</div>
+                        </div>
                     </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Ferramentas</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">Docker</span>
-                        <span class="skill-tag">VS Code</span>
-                        <span class="skill-tag">Figma</span>
-                        <span class="skill-tag">NPM</span>
-                        <span class="skill-tag">Linux</span>
+                    <div class="hero-card-caption">
+                        <span>ÁREA DE ESTUDO</span>
+                        <strong>Ciência da Computação</strong>
+                    </div>
+                    <div class="hero-metrics">
+                        <div>
+                            <strong>IFAM</strong>
+                            <span>Formação técnica</span>
+                        </div>
+                        <div>
+                            <strong>CIESA</strong>
+                            <span>Graduação</span>
+                        </div>
+                        <div>
+                            <strong>02/2029</strong>
+                            <span>Conclusão prevista</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Projetos -->
-    <section id="projetos" class="projects">
-        <div class="container">
-            <h2 class="section-title">Meus Projetos</h2>
+        <section id="about" class="about section">
+            <div class="container about-grid">
+                <div class="about-panel reveal">
+                    <div class="panel-head">
+                        <span class="eyebrow"><i class="fas fa-terminal"></i> Objetivo</span>
+                        <h2>Sou comprometido com o crescimento pessoal e profissional.</h2>
+                    </div>
+                    <p>Busco integrar-me a uma equipe onde possa contribuir de forma eficaz nas atividades designadas,
+                        ao mesmo tempo em que desenvolvo minhas habilidades para apoiar os objetivos da instituição.</p>
+                    <p>Tenho experiência em desenvolvimento de interfaces frontend, testes de sistemas, verificação de
+                        funcionamento, apoio no desenvolvimento de aplicativos e identificação de erros para melhoria
+                        contínua.</p>
+                    <div class="social-links" aria-label="Redes sociais">
+                        <a href="https://www.linkedin.com/in/marcos-maciel-05a7362aa" target="_blank"
+                            rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/MarcosMacielTI-ciesa" target="_blank"
+                            rel="noopener noreferrer" title="GitHub CIESA" aria-label="GitHub CIESA"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://github.com/MarcosMacielTI/MarcosMacielTI" target="_blank"
+                            rel="noopener noreferrer" title="GitHub MarcosMacielTI" aria-label="GitHub MarcosMacielTI"><i
+                                class="fab fa-github"></i></a>
+                        <a href="mailto:marcosmaciel2906151@gmail.com" title="E-mail" aria-label="E-mail"><i
+                                class="fas fa-envelope"></i></a>
+                        <a href="tel:+5592984281607" title="Telefone" aria-label="Telefone"><i
+                                class="fas fa-phone"></i></a>
+                    </div>
+                </div>
+                <div class="code-card reveal">
+                    <div class="code-toolbar">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <pre><code>const profile = {
+  name: "Marcos Maciel",
+  role: "Técnico em Informática",
+  education: ["IFAM", "CIESA"],
+  focus: ["frontend", "backend", "teste", "automação"]
+};</code></pre>
+                </div>
+            </div>
+        </section>
 
-            <!-- Projetos Pessoais -->
-            <div class="projects-section">
-                <h3 class="projects-subtitle">Projetos Pessoais</h3>
+        <section id="education" class="section projects-section">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow"><i class="fas fa-graduation-cap"></i> Formação</p>
+                    <h2>Educação técnica e superior</h2>
+                </div>
                 <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <div class="image-placeholder">
-                                <i class="fas fa-code"></i>
-                            </div>
-                        </div>
+                    <article class="project-card reveal">
+                        <div class="project-image"><i class="fas fa-school"></i></div>
                         <div class="project-content">
-                            <h3>E-Commerce Platform</h3>
-                            <p>Plataforma de e-commerce completa com carrinho de compras, pagamentos integrados e painel administrativo.</p>
-                            <div class="project-tags">
-                                <span>React</span>
-                                <span>Node.js</span>
-                                <span>MongoDB</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i> Ver Projeto
-                                </a>
-                                <a href="#" class="project-link">
-                                    <i class="fab fa-github"></i> GitHub
-                                </a>
+                            <h3>IFAM - Instituto Federal do Amazonas</h3>
+                            <p>Técnico de Nível Médio em Informática na Forma Integrada em Informática. Graduado em
+                                02/2025.</p>
+                            <div class="tags"><span>Informática</span><span>Formação técnica</span><span>IFAM</span>
                             </div>
                         </div>
-                    </div>
+                    </article>
+                    <article class="project-card reveal">
+                        <div class="project-image"><i class="fas fa-laptop-house"></i></div>
+                        <div class="project-content">
+                            <h3>CIESA - Centro Universitário do Amazonas</h3>
+                            <p>Bacharelado em Ciência da Computação - Noturno. Início em 03/2025 com previsão de
+                                conclusão em 02/2029.</p>
+                            <div class="tags"><span>Ciência da
+                                    Computação</span><span>Superior</span><span>Noturno</span></div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-                    <div class="project-card">
-                        <div class="project-image">
-                            <div class="image-placeholder">
-                                <i class="fas fa-chart-line"></i>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <h3>Dashboard Analytics</h3>
-                            <p>Dashboard interativo para análise de dados em tempo real com gráficos responsivos e filtros avançados.</p>
-                            <div class="project-tags">
-                                <span>Vue.js</span>
-                                <span>Chart.js</span>
-                                <span>API REST</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i> Ver Projeto
-                                </a>
-                                <a href="#" class="project-link">
-                                    <i class="fab fa-github"></i> GitHub
-                                </a>
-                            </div>
-                        </div>
+        <section id="experience" class="section experience-section">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow"><i class="fas fa-briefcase"></i> Experiência</p>
+                    <h2>Estágios e atividades práticas</h2>
+                </div>
+                <div class="experience-grid">
+                    <div class="experience-tabs reveal" role="tablist" aria-label="Experiência profissional">
+                        <button class="tab active" role="tab" data-target="tab1">IFAM</button>
+                        <button class="tab" role="tab" data-target="tab2">Amazon STEM</button>
+                        <button class="tab" role="tab" data-target="tab3">CGE</button>
                     </div>
-
-                    <div class="project-card">
-                        <div class="project-image">
-                            <div class="image-placeholder">
-                                <i class="fas fa-mobile-alt"></i>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <h3>Task Manager App</h3>
-                            <p>Aplicação responsiva para gerenciamento de tarefas com sincronização em tempo real entre dispositivos.</p>
-                            <div class="project-tags">
-                                <span>React Native</span>
-                                <span>Firebase</span>
-                                <span>JWT</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i> Ver Projeto
-                                </a>
-                                <a href="#" class="project-link">
-                                    <i class="fab fa-github"></i> GitHub
-                                </a>
-                            </div>
-                        </div>
+                    <div class="experience-panel reveal" id="tab1">
+                        <h3>Estágio Supervisionado / Projeto de Conclusão</h3>
+                        <p>Instituto Federal do Amazonas - IFAM</p>
+                        <ul>
+                            <li>Desenvolvimento de interfaces frontend.</li>
+                            <li>Testes e verificação do funcionamento de sistemas.</li>
+                            <li>Apoio no desenvolvimento de aplicações e correção de erros (debug).</li>
+                            <li>Participação no ciclo de desenvolvimento de software.</li>
+                        </ul>
+                        <span>15/08/2024 - 15/11/2024</span>
+                    </div>
+                    <div class="experience-panel reveal hidden" id="tab2">
+                        <h3>Evento Amazon STEM Adventures</h3>
+                        <p>Escola Superior de Tecnologia - EST/UEA</p>
+                        <ul>
+                            <li>Modelagem 3D e programação de circuitos eletrônicos.</li>
+                            <li>Utilização de hardware de prototipagem.</li>
+                            <li>Desenvolvimento de projeto técnico.</li>
+                        </ul>
+                        <span>04/03/2024 - 05/03/2024</span>
+                    </div>
+                    <div class="experience-panel reveal hidden" id="tab3">
+                        <h3>Estágio em Informática e Desenvolvedor</h3>
+                        <p>Controladoria-Geral do Estado do Amazonas - CGE</p>
+                        <ul>
+                            <li>Atuação como Técnico em Informática e Desenvolvedor de Sistema.</li>
+                            <li>Desenvolvimento de interfaces frontend e testes de sistema.</li>
+                            <li>Testes, verificação e acompanhamento do funcionamento de sistemas.</li>
+                        </ul>
+                        <span>15/04/2026 - 15/09/2026</span>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <!-- Projetos da Faculdade -->
-            <div class="projects-section">
-                <h3 class="projects-subtitle">Projetos da Faculdade</h3>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <div class="image-placeholder">
-                                <i class="fas fa-blog"></i>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <h3>Blog Platform</h3>
-                            <p>Plataforma de blogging moderna com editor rico, comentários, categorias e sistema de busca otimizado.</p>
-                            <div class="project-tags">
-                                <span>Next.js</span>
-                                <span>PostgreSQL</span>
-                                <span>Markdown</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i> Ver Projeto
-                                </a>
-                                <a href="#" class="project-link">
-                                    <i class="fab fa-github"></i> GitHub
-                                </a>
-                            </div>
-                        </div>
+        <section id="skills" class="section skills-section">
+            <div class="container skills-grid-layout">
+                <div class="skills-intro reveal">
+                    <p class="eyebrow"><i class="fas fa-bolt"></i> Competências</p>
+                    <h2>Habilidades técnicas aplicadas</h2>
+                    <p>Capacitação em programação, redes, sistemas operacionais, desenvolvimento web e prototipagem de
+                        projetos.</p>
+                </div>
+                <div class="skills-shell reveal">
+                    <div class="skills-list">
+                        <button class="skill-pill active" data-skill="frontend">Frontend</button>
+                        <button class="skill-pill" data-skill="backend">Backend</button>
+                        <button class="skill-pill" data-skill="tools">Ferramentas</button>
+                        <button class="skill-pill" data-skill="soft">Soft Skills</button>
                     </div>
-
-                    <div class="project-card">
-                        <div class="project-image">
-                            <div class="image-placeholder">
-                                <i class="fas fa-shopping-cart"></i>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <h3>Social Network</h3>
-                            <p>Rede social interativa com feed em tempo real, comentários, likes e sistema de notificações.</p>
-                            <div class="project-tags">
-                                <span>React</span>
-                                <span>Socket.io</span>
-                                <span>MongoDB</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i> Ver Projeto
-                                </a>
-                                <a href="#" class="project-link">
-                                    <i class="fab fa-github"></i> GitHub
-                                </a>
-                            </div>
-                        </div>
+                    <div class="skill-detail" id="frontend">
+                        <h3>Frontend</h3>
+                        <p>HTML, CSS, JavaScript, design de interface, desenvolvimento web responsivo e aplicações com
+                            boa usabilidade.</p>
                     </div>
-
-                    <div class="project-card">
-                        <div class="project-image">
-                            <div class="image-placeholder">
-                                <i class="fas fa-video"></i>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <h3>Video Streaming</h3>
-                            <p>Plataforma de streaming de vídeos com qualidade adaptável, histórico de visualizações e recomendações.</p>
-                            <div class="project-tags">
-                                <span>Vue.js</span>
-                                <span>HLS</span>
-                                <span>AWS</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i> Ver Projeto
-                                </a>
-                                <a href="#" class="project-link">
-                                    <i class="fab fa-github"></i> GitHub
-                                </a>
-                            </div>
-                        </div>
+                    <div class="skill-detail hidden" id="backend">
+                        <h3>Backend</h3>
+                        <p>MySQL, SQLite, Firebase, Node.js, Express.js, APIs REST e verificação do funcionamento de
+                            sistemas.</p>
+                    </div>
+                    <div class="skill-detail hidden" id="tools">
+                        <h3>Ferramentas</h3>
+                        <p>Git, GitHub, Figma, Canva, Railway, Mercado Pago, Pacote Office e ambiente de prototipagem
+                            técnica.</p>
+                    </div>
+                    <div class="skill-detail hidden" id="soft">
+                        <h3>Soft Skills</h3>
+                        <p>Boa comunicação, trabalho em equipe, proatividade, resiliência, adaptabilidade e organização.
+                        </p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contato -->
-    <section id="contato" class="contact">
-        <div class="container">
-            <h2 class="section-title">Entre em Contato</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Vamos conversar!</h3>
-                    <p>Estou sempre aberto a novas oportunidades e projetos interessantes. Sinta-se livre para entrar em contato comigo através de qualquer um dos canais abaixo.</p>
-                    <div class="contact-methods">
-                        <div class="contact-method">
-                            <i class="fas fa-envelope"></i>
-                            <div>
-                                <h4>Email</h4>
-                                <a href="mailto:marcosmaciel2906151@gmail.com">marcosmaciel2906151@gmail</a>
-                            </div>
-                        </div>
-                        <div class="contact-method">
-                            <i class="fas fa-phone"></i>
-                            <div>
-                                <h4>Telefone</h4>
-                                <a href="tel:+5592984281607">(92) 98428-1607</a>
-                            </div>
-                        </div>
-                        <div class="contact-method">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div>
-                                <h4>Localização</h4>
-                                <p>Manaus, Amazonas - Brasil</p>
-                            </div>
-                        </div>
+        <section id="services" class="section services-section">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow"><i class="fas fa-tools"></i> Serviços</p>
+                    <h2>O que posso fazer por você</h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card reveal">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Desenvolvimento Web</h3>
+                        <p>Criação de páginas e aplicações web com foco em interface, responsividade e experiência do
+                            usuário.</p>
                     </div>
-                    <div class="social-links">
-                        <a href="#" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="#" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-                        <a href="#" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <div class="service-card reveal">
+                        <i class="fas fa-vial"></i>
+                        <h3>Testes e Verificação</h3>
+                        <p>Teste de sistemas, identificação de erros e acompanhamento do funcionamento para entrega
+                            confiável.</p>
+                    </div>
+                    <div class="service-card reveal">
+                        <i class="fas fa-robot"></i>
+                        <h3>Suporte e Automação</h3>
+                        <p>Suporte técnico, automação de tarefas e apoio no desenvolvimento de aplicações e projetos.
+                        </p>
                     </div>
                 </div>
-                <form class="contact-form" id="contactForm">
-                    <div class="form-group">
-                        <input type="text" placeholder="Seu Nome" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Seu Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" placeholder="Assunto" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
-                </form>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
+        <section id="certifications" class="section services-section">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow"><i class="fas fa-certificate"></i> Certificações</p>
+                    <h2>Formação complementar</h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card reveal">
+                        <i class="fas fa-file-alt"></i>
+                        <h3>Informática Básica</h3>
+                        <p>Instituto Euvaldo Lodi - IEL. Curso com 40 horas em 2019.</p>
+                    </div>
+                    <div class="service-card reveal">
+                        <i class="fas fa-code"></i>
+                        <h3>JavaScript</h3>
+                        <p>Instituto Federal Sul-rio-grandense - IFSul. Linguagem JavaScript com 20 horas em 2024.</p>
+                    </div>
+                    <div class="service-card reveal">
+                        <i class="fas fa-code-branch"></i>
+                        <h3>HTML</h3>
+                        <p>Introdução ao desenvolvimento de páginas web pelo Instituto Federal do Rio Grande do Sul -
+                            IFRS. 20 horas em 2024.</p>
+                    </div>
+                    <div class="service-card reveal">
+                        <i class="fas fa-terminal"></i>
+                        <h3>Python</h3>
+                        <p>Curso de Linguagem de Programação Python pela Fundação Bradesco - Escola Virtual. 18 horas em
+                            2024.</p>
+                    </div>
+                    <div class="service-card reveal">
+                        <i class="fas fa-brain"></i>
+                        <h3>Lógica de Programação</h3>
+                        <p>Curso de Fundamentos de Lógica de Programação pela Fundação Bradesco - Escola Virtual. 15
+                            horas em 2024.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="contact-card reveal">
+                    <p class="eyebrow"><i class="fas fa-paper-plane"></i> Contato</p>
+                    <h2>Pronto para o próximo desafio?</h2>
+                    <p>Estou disponível para oportunidades de estágio, trabalho e projetos com foco em desenvolvimento e
+                        suporte técnico.</p>
+                    <p><a href="tel:+5592984281607">+55 (92) 98428-1607</a></p>
+                    <div class="contact-actions">
+                        <a class="btn btn-primary" href="https://wa.me/5592984281607" target="_blank"
+                            rel="noopener noreferrer">Chamar no WhatsApp</a>
+                        <a class="btn btn-secondary" href="mailto:marcosmaciel2906151@gmail.com">Enviar e-mail</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p>&copy; 2025 Marcos Maciel. Todos os direitos reservados.</p>
-                <div class="footer-links">
-                    <a href="#home">Home</a>
-                    <a href="#sobre">Sobre</a>
-                    <a href="#projetos">Projetos</a>
-                    <a href="#contato">Contato</a>
-                </div>
+        <div class="container footer-shell">
+            <p>© <span id="year"></span> Marcos Maciel. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">Sobre</a>
+                <a href="#experience">Experiência</a>
+                <a href="#contact">Contato</a>
             </div>
         </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>

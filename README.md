@@ -25,14 +25,15 @@ Este site está configurado para ser publicado no GitHub Pages.
 7. Clique em **Save**.
 8. O site será publicado em: `https://marcosmacielti.github.io/Marcos-Maciel-TI/`
 
-### Notas:
-- O site é estático, então não há necessidade de build.
-- Se você quiser um domínio customizado, adicione um arquivo `CNAME` na raiz com seu domínio.
-
 ## Tecnologias utilizadas
 - HTML
 - CSS
 - JavaScript
 
 ## Contato
-Marcos Maciel - [Seu email ou LinkedIn]
+Marcos Maciel
+- E-mail: marcosmaciel2906151@gmail.com
+- Telefone/WhatsApp: +55 (92) 98428-1607
+- LinkedIn: https://www.linkedin.com/in/marcos-maciel-05a7362aa
+- GitHub: https://github.com/MarcosMacielTI-ciesa
+- GitHub: https://github.com/MarcosMacielTI/MarcosMacielTI
