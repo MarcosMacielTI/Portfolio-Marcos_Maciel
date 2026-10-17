@@ -72,19 +72,23 @@ tabButtons.forEach((button) => {
     });
 });
 
-const filterButtons = document.querySelectorAll('.filter');
-const projectCards = document.querySelectorAll('.project-card');
+const filterButtons = document.querySelectorAll('#projects .filter');
+const projectCards = document.querySelectorAll('#projects .project-card');
 
 filterButtons.forEach((button) => {
     button.addEventListener('click', () => {
         const filter = button.getAttribute('data-filter');
 
-        filterButtons.forEach((btn) => btn.classList.toggle('active', btn === button));
+        filterButtons.forEach((btn) => {
+            const isActive = btn === button;
+            btn.classList.toggle('active', isActive);
+            btn.setAttribute('aria-pressed', String(isActive));
+        });
 
         projectCards.forEach((card) => {
             const category = card.getAttribute('data-category');
             const isVisible = filter === 'all' || category === filter;
-            card.style.display = isVisible ? 'block' : 'none';
+            card.style.display = isVisible ? '' : 'none';
         });
     });
 });

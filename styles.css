@@ -1154,6 +1154,109 @@ code {
     gap: 12px;
 }
 
+.project-section-heading {
+    align-items: flex-end;
+    margin-bottom: 14px;
+}
+
+.projects-intro {
+    max-width: 650px;
+    margin-bottom: 24px;
+    color: var(--muted);
+}
+
+.project-profile-link,
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--primary);
+    font-family: 'DM Mono', monospace;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+
+.project-profile-link {
+    padding-bottom: 7px;
+    border-bottom: 1px solid var(--primary);
+}
+
+.project-profile-link:hover,
+.project-link:hover {
+    color: var(--text);
+}
+
+.project-filters {
+    margin-bottom: 20px;
+}
+
+.project-filters .filter {
+    border-radius: 2px;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.7rem;
+}
+
+.project-filters .filter.active {
+    border-color: var(--primary);
+    background: var(--primary);
+    color: #171915;
+}
+
+.portfolio-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: stretch;
+}
+
+#projects .project-card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 100%;
+}
+
+#projects .project-card[data-featured="true"] {
+    border-top: 2px solid var(--primary);
+}
+
+#projects .project-image {
+    min-height: 92px;
+}
+
+#projects .project-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.project-topline {
+    margin-bottom: 8px;
+    color: var(--primary);
+    font-family: 'DM Mono', monospace;
+    font-size: 0.62rem;
+    line-height: 1.5;
+}
+
+#projects .project-content h3 {
+    margin-bottom: 8px;
+}
+
+#projects .project-content>p:not(.project-topline) {
+    font-size: 0.9rem;
+}
+
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 18px;
+    margin-top: auto;
+    padding-top: 20px;
+}
+
+.project-link {
+    font-size: 0.64rem;
+}
+
 .project-card {
     display: grid;
     grid-template-columns: 105px minmax(0, 1fr);
@@ -1375,6 +1478,18 @@ code {
     .services-grid {
         grid-template-columns: 1fr;
     }
+
+    .project-section-heading {
+        align-items: flex-start;
+    }
+
+    .project-filters {
+        gap: 8px;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
 
 @media (max-width: 560px) {
@@ -1402,6 +1517,10 @@ code {
     }
 
     .project-card {
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio-grid {
         grid-template-columns: 1fr;
     }
 
