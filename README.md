@@ -17,13 +17,17 @@ Este site está configurado para ser publicado no GitHub Pages.
 ### Passos para publicar:
 
 1. Certifique-se de que todos os arquivos estão commitados no branch `main`.
-2. Vá para o repositório no GitHub: [https://github.com/MarcosMacielTI/Marcos-Maciel-TI](https://github.com/MarcosMacielTI/Marcos-Maciel-TI)
+2. Vá para o repositório no GitHub: [https://github.com/MarcosMacielTI/Portfolio-Marcos_Maciel](https://github.com/MarcosMacielTI/Portfolio-Marcos_Maciel)
 3. Clique em **Settings** (Configurações).
 4. Na barra lateral esquerda, clique em **Pages**.
 5. Em "Source", selecione **Deploy from a branch**.
 6. Em "Branch", selecione **main** e **/(root)**.
 7. Clique em **Save**.
-8. O site será publicado em: `https://marcosmacielti.github.io/Marcos-Maciel-TI/`
+8. O site será publicado em: `https://marcosmacielti.github.io/Portfolio-Marcos_Maciel/`
+
+O currículo em PDF fica em `documentos/curriculo-marcos-maciel.pdf` na raiz do
+repositório e será publicado em:
+`https://marcosmacielti.github.io/Portfolio-Marcos_Maciel/documentos/curriculo-marcos-maciel.pdf`
 
 ## Tecnologias utilizadas
 - HTML
