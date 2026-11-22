@@ -1,44 +1,54 @@
-# Portfolio de Marcos Maciel
+# 👨‍💻 Marcos Maciel | Desenvolvedor de Software
 
-Este é o meu site de portfólio pessoal, desenvolvido como um site estático.
+Bem-vindo ao repositório do meu **portfólio pessoal**!
 
-## Como visualizar localmente
+Sou estudante de **Ciência da Computação no CIESA** e Técnico em Informática formado pelo IFAM. Tenho interesse em desenvolvimento de software, especialmente nas áreas de **Front-end, Back-end e Full Stack**.
 
-Abra o arquivo `index.html` em um navegador ou use um servidor local:
+Este portfólio foi desenvolvido para apresentar minha trajetória acadêmica, experiências profissionais, habilidades técnicas, projetos e certificações.
 
-- **Python 3**: `python -m http.server 8000`
-- **Node.js**: `npx http-server -p 8000`
-- **VS Code Live Server**: Instale a extensão e clique com o botão direito em `index.html`.
+## 🌐 Acesse meu portfólio
 
-## Publicação no GitHub Pages
+🔗 [Visualizar Portfólio](https://marcosmacielti.github.io/Portfolio-Marcos_Maciel)
 
-Este site está configurado para ser publicado no GitHub Pages.
+## 🚀 Tecnologias utilizadas
 
-### Passos para publicar:
+- **HTML5** – Estruturação das páginas.
+- **CSS3** – Estilização, responsividade e layout.
+- **JavaScript** – Interatividade e funcionalidades.
 
-1. Certifique-se de que todos os arquivos estão commitados no branch `main`.
-2. Vá para o repositório no GitHub: [https://github.com/MarcosMacielTI/Portfolio-Marcos_Maciel](https://github.com/MarcosMacielTI/Portfolio-Marcos_Maciel)
-3. Clique em **Settings** (Configurações).
-4. Na barra lateral esquerda, clique em **Pages**.
-5. Em "Source", selecione **Deploy from a branch**.
-6. Em "Branch", selecione **main** e **/(root)**.
-7. Clique em **Save**.
-8. O site será publicado em: `https://marcosmacielti.github.io/Portfolio-Marcos_Maciel/`
+## 💻 Conhecimentos técnicos
 
-O currículo em PDF fica em `documentos/curriculo-marcos-maciel.pdf` na raiz do
-repositório e será publicado em:
-`https://marcosmacielti.github.io/Portfolio-Marcos_Maciel/documentos/curriculo-marcos-maciel.pdf`
+- **Front-end:** HTML, CSS, JavaScript, TypeScript e React.
+- **Back-end:** Node.js, Express e Fastify.
+- **Linguagens:** Java, Python, C, C++ e Dart.
+- **Banco de Dados:** PostgreSQL, MySQL, SQLite e Firebase.
+- **Mobile:** Flutter e Dart.
+- **Ferramentas:** Git, GitHub, Docker e VS Code.
 
-## Tecnologias utilizadas
-- HTML
-- CSS
-- JavaScript
+## 🎓 Formação acadêmica
 
-## Contato
-Marcos Maciel
-- E-mail: marcosmaciel2906151@gmail.com
-- Telefone/WhatsApp: +55 (92) 98428-1607
-- Currículo Sougov: https://curriculo.sougov.economia.gov.br/marcos-maciel-2601335566
-- LinkedIn: https://www.linkedin.com/in/marcos-maciel-05a7362aa
-- GitHub: https://github.com/MarcosMacielTI-ciesa
-- GitHub: https://github.com/MarcosMacielTI/MarcosMacielTI
+- **Ciência da Computação** – CIESA (2025–2029).
+- **Técnico em Informática** – IFAM (2022–2025).
+
+## 📂 Projetos
+
+Confira meus projetos e repositórios:
+
+- [GitHub Pessoal](https://github.com/MarcosMacielTI)
+- [GitHub Acadêmico – CIESA](https://github.com/MarcosMacielTI-ciesa)
+
+## 📬 Contato
+
+Entre em contato comigo ou acompanhe meu trabalho:
+
+- **E-mail:** marcosmaciel2906151@gmail.com
+- **Telefone/WhatsApp:** +55 (92) 98428-1607
+- **LinkedIn:** [Marcos Maciel](https://www.linkedin.com/in/marcos-maciel-05a7362aa)
+- **GitHub Pessoal:** [@MarcosMacielTI](https://github.com/MarcosMacielTI)
+- **GitHub Acadêmico:** [MarcosMacielTI-ciesa](https://github.com/MarcosMacielTI-ciesa)
+
+---
+
+⭐ Obrigado por visitar meu portfólio!
+
+**Marcos Maciel** | Estudante de Ciência da Computação e Desenvolvedor de Software em formação.
